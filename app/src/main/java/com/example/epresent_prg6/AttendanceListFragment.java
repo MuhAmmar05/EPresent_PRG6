@@ -26,16 +26,16 @@ public class AttendanceListFragment extends Fragment {
         // Sample data
         attendanceList = new ArrayList<>();
         attendanceList.add(new AttendanceItem("2024-01-14", "08:00", "Masuk")); // Correct order
-        attendanceList.add(new AttendanceItem("2024-01-15", "09:30", "Terlambat"));
+
         attendanceList.add(new AttendanceItem("2024-01-16", "-", "Tidak Hadir"));
         attendanceList.add(new AttendanceItem("2024-01-14", "08:00", "Masuk")); // Correct order
-        attendanceList.add(new AttendanceItem("2024-01-15", "09:30", "Terlambat"));
+
         attendanceList.add(new AttendanceItem("2024-01-16", "-", "Tidak Hadir"));
         attendanceList.add(new AttendanceItem("2024-01-14", "08:00", "Masuk")); // Correct order
-        attendanceList.add(new AttendanceItem("2024-01-15", "09:30", "Terlambat"));
+
         attendanceList.add(new AttendanceItem("2024-01-16", "-", "Tidak Hadir"));
         attendanceList.add(new AttendanceItem("2024-01-14", "08:00", "Masuk")); // Correct order
-        attendanceList.add(new AttendanceItem("2024-01-15", "09:30", "Terlambat"));
+
         attendanceList.add(new AttendanceItem("2024-01-16", "-", "Tidak Hadir"));
 
         adapter = new AttendanceAdapter(getContext(), attendanceList);

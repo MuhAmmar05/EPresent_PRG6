@@ -37,9 +37,6 @@ public class AttendanceAdapter extends RecyclerView.Adapter<AttendanceAdapter.At
         if (attendance.getStatus().equalsIgnoreCase("Masuk")) {
             holder.ivStatusIcon.setImageResource(R.drawable.riwayat_ic_clock_green);
             holder.tvStatus.setTextColor(ContextCompat.getColor(context, R.color.custom_green));
-        } else if (attendance.getStatus().equalsIgnoreCase("Terlambat")) {
-            holder.ivStatusIcon.setImageResource(R.drawable.riwayat_ic_clock_orange);
-            holder.tvStatus.setTextColor(ContextCompat.getColor(context, R.color.custom_orange));
         } else if (attendance.getStatus().equalsIgnoreCase("Tidak Hadir")) {
             holder.ivStatusIcon.setImageResource(R.drawable.riwayat_ic_clock_red);
             holder.tvStatus.setTextColor(ContextCompat.getColor(context, R.color.custom_red));

@@ -7,7 +7,7 @@
     android:layout_marginBottom="8dp"
     android:padding="12dp">
 
-    <!-- Attendance Status Icon (Green/Orange/Red Clock) -->
+    <!-- Attendance Status Icon (Green/Red Clock) -->
     <ImageView
         android:id="@+id/iv_status_icon"
         android:layout_width="24dp"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
-    <!-- Attendance Status Text (e.g., Masuk, Terlambat, Tidak Hadir) -->
+    <!-- Attendance Status Text (e.g., Masuk, Tidak Hadir) -->
     <TextView
         android:id="@+id/tv_status"
         android:layout_width="0dp"
