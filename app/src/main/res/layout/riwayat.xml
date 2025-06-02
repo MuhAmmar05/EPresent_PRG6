@@ -65,6 +65,7 @@
             android:id="@+id/tv_month"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/inria_sans"
             android:paddingHorizontal="16dp"
             android:paddingVertical="8dp"
             android:text="Desember"
