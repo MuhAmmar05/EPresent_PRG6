@@ -4,8 +4,8 @@
     <solid android:color="@android:color/white"/>
     <!-- Hanya sudut atas yang dibulatkan -->
     <corners
-        android:topLeftRadius="70dp"
-        android:topRightRadius="70dp"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp"
         android:bottomLeftRadius="0dp"
         android:bottomRightRadius="0dp"/>
 </shape>
