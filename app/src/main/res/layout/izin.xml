@@ -40,12 +40,14 @@
 
             <!--            Ini Hiasan doang 😂😂😂 -->
             <View
+                android:id="@+id/view"
                 android:layout_width="wrap_content"
                 android:layout_height="5dp"
                 android:layout_gravity="top|center_vertical"
                 android:layout_marginTop="3dp"
                 android:background="#D9D9D9"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -53,13 +55,13 @@
                 android:id="@+id/judulForm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="32dp"
                 android:fontFamily="@font/inria_sans_bold"
                 android:text="Pengajuan Izin"
                 android:textAlignment="center"
                 android:textColor="#6B7280"
                 android:textSize="35sp"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view"
                 tools:layout_editor_absoluteX="5dp" />
 
             <TextView
