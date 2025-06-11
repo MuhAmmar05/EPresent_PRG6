@@ -93,7 +93,7 @@
 
     <!-- Fragment for Attendance List (scrollable) -->
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/attendance_fragment_container"
+        android:id="@+id/home_fragment_container"
         android:name="com.example.epresent_prg6.AttendanceListFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
