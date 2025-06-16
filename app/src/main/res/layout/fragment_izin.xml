@@ -75,7 +75,7 @@
                 tools:layout_editor_absoluteX="5dp">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/inputTglAwal"
+                    android:id="@+id/inputTglIzin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableEnd="@drawable/calendar_sad"
