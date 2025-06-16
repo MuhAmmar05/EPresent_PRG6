@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="custom_blue">#2E7BE8</color> <!-- Adjust as needed -->
-<!--    <color name="custom_green">#28A745</color>-->
-    <color name="custom_dark_text">#333333</color>
-    <color name="custom_light_gray">#DDDDDD</color>
-    <color name="custom_gray">#888888</color>
+    <color name="primary_blue">#2E7BE8</color>
+    <color name="text_gray">#6B7280</color>
     <color name="white">#FFFFFF</color>
-    <color name="black">#FF000000</color>
-
-    <color name="custom_green">#4CAF50</color>
-    <color name="custom_orange">#FF9800</color>
-    <color name="custom_red">#F44336</color>
-
 </resources>

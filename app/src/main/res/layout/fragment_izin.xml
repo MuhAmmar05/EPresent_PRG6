@@ -20,7 +20,7 @@
         android:id="@+id/cardForm"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/rounded_top_background"
         android:orientation="vertical"
         android:padding="16dp"
@@ -59,7 +59,6 @@
                 android:fontFamily="@font/inria_sans_bold"
                 android:text="Pengajuan Izin"
                 android:textAlignment="center"
-                android:textColor="#6B7280"
                 android:textSize="35sp"
                 app:layout_constraintTop_toBottomOf="@+id/view"
                 tools:layout_editor_absoluteX="5dp" />
@@ -90,8 +89,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
                 android:hint="Pilih Jenis Izin"
-                app:layout_constraintTop_toBottomOf="@+id/textInputLayoutTglAwal"
-                tools:layout_editor_absoluteX="5dp">
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayoutTglAwal">
 
                 <AutoCompleteTextView
                     android:id="@+id/dropdown_jenis_izin"
@@ -104,7 +102,7 @@
                 android:id="@+id/btnSubmitIzin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="60dp"
                 android:backgroundTint="#2E7BE8"
                 android:fontFamily="@font/inria_sans_bold"
                 android:text="Submit"
@@ -122,14 +120,14 @@
     <!--    Navbar Bawah -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navbar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="379dp"
+        android:layout_height="90dp"
         android:background="@drawable/navbar"
         android:backgroundTint="@null"
-        app:menu="@menu/bottom_nav_menu"
+        android:padding="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:padding="2dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

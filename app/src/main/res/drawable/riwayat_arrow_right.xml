@@ -7,7 +7,7 @@
 
     <!-- Background lingkaran biru -->
     <path
-        android:fillColor="@color/custom_blue"
+        android:fillColor="@color/primary_blue"
         android:pathData="M12,24A12,12 0,1 1,12 0A12,12 0,0 1,12 24Z" />
 
     <!-- Panah kanan (warna putih) -->
