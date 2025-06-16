@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">EPresent_PRG6</string>
+    <string-array name="jenisIzin">
+        <item>Sakit</item>
+        <item>Urusan Keluarga</item>
+        <item>Izin Kegiatan</item>
+        <item>Cuti</item>
+    </string-array>
 </resources>
