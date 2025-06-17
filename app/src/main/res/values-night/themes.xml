@@ -1,7 +1,16 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema utama aplikasi -->
     <style name="Base.Theme.EPresent_PRG6" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/custom_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/custom_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:textColorPrimary">@color/custom_dark_text</item>
+        <item name="android:windowBackground">@color/white</item>
     </style>
+
+    <!-- Alias agar mudah digunakan di AndroidManifest -->
+    <style name="Theme.EPresent_PRG6" parent="Base.Theme.EPresent_PRG6" />
 </resources>

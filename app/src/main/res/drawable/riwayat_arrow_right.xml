@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Background lingkaran biru -->
+    <path
+        android:fillColor="@color/custom_blue"
+        android:pathData="M12,24A12,12 0,1 1,12 0A12,12 0,0 1,12 24Z" />
+
+    <!-- Panah kanan (warna putih) -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M8.59,16.59L10,18L16,12L10,6L8.59,7.41L13.17,12z" />
+</vector>

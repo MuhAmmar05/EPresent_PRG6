@@ -1,5 +1,5 @@
 [versions]
-agp = "8.8.2"
+agp = "8.9.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
@@ -8,6 +8,7 @@ lifecycleExtensions = "2.2.0"
 material = "1.12.0"
 activity = "1.10.1"
 constraintlayout = "2.2.1"
+camerax = "1.3.0"
 navigationFragment = "2.9.0"
 recyclerview = "1.4.0"
 roomRuntime = "2.7.1"
@@ -21,6 +22,10 @@ lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", ver
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+camerax-core = { group = "androidx.camera", name = "camera-core", version.ref = "camerax" }
+camerax-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camerax" }
+camerax-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camerax" }
+camerax-view = { group = "androidx.camera", name = "camera-view", version.ref = "camerax" }
 navigation-fragment = { module = "androidx.navigation:navigation-fragment", version.ref = "navigationFragment" }
 navigation-ui = { module = "androidx.navigation:navigation-ui", version.ref = "navigationFragment" }
 recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
