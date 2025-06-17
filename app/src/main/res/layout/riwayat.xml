@@ -47,6 +47,8 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <!-- Background untuk bulan (SEKARANG DIBAWAH TEXT) -->
+
+        <!-- Month Label (TERIKAT KE BACKGROUND) -->
         <View
             android:id="@+id/month_bg"
             android:layout_width="0dp"
@@ -56,11 +58,11 @@
             android:background="@drawable/riwayat_rounded_blue_bg"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/btn_next_month"
-            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@id/btn_prev_month"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.488" />
 
-        <!-- Month Label (TERIKAT KE BACKGROUND) -->
         <TextView
             android:id="@+id/tv_month"
             android:layout_width="wrap_content"
@@ -98,21 +100,23 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/riwayat_rounded_top_background"
+        android:background="@drawable/rounded_top_background"
         app:layout_constraintTop_toBottomOf="@id/month_navigation"
         app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <!-- Bottom Navigation Bar -->
-<com.google.android.material.bottomnavigation.BottomNavigationView
-    android:id="@+id/bottom_navigation"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="16dp"
-    android:background="@color/white"
-    app:menu="@menu/bottom_nav_menu"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toEndOf="parent" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="5dp"
+        />
     </androidx.constraintlayout.widget.ConstraintLayout>

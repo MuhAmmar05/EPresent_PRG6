@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">EPresent_PRG6</string>
+    <string-array name="jenisIzin">
+        <item>Sakit</item>
+        <item>Urusan Keluarga</item>
+        <item>Izin Kegiatan</item>
+        <item>Cuti</item>
+    </string-array>
     <string name="tes_string">Tes berhasil</string>
     <string name="bg_image_desc">Background building image</string>
     <string name="toggle_password_visibility">Toggle password visibility</string>
